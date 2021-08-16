@@ -1,0 +1,34 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(casino.jpeg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: azure;
+}
+.game-body {
+    background-color: rgb(122, 163, 168);
+    opacity: .95;
+}
+h1{
+    color: rgb(44, 116, 92);
+}
+button {
+    background-color: rgb(44, 116, 92);
+    width: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: yellow;
+    font-weight: bold;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#game-over {
+    font-weight: bolder;
+    color: rgb(89, 71, 255);
+}
