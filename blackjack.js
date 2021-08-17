@@ -7,6 +7,12 @@ let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 let cardEl = document.getElementById("cards-el");
 let gameOver = document.getElementById("game-over");
+let startBtn = document.getElementById("start-game");
+startBtn.addEventListener('click', startGame);
+let newCardBtn = document.getElementById("new-card");
+newCardBtn.addEventListener('click', newCard);
+let newGameBtn = document.getElementById("new-game");
+newGameBtn.addEventListener('click', newGame);
 let lost = "Game over. You lost!!";
 let winner = "Game over. You WON!!";
 let player = {
